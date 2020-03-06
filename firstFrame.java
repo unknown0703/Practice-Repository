@@ -17,7 +17,7 @@ public class firstFrame
         holding.setLayout(new GridLayout(3,1,10,10));
         makingButtons();
         addingButtons();
-        addingAction();
+
     }
     public void makingButtons()
     {
@@ -49,12 +49,14 @@ public class firstFrame
     }
     public JPanel getHolding()
     {return holding;}
-    public void addingAction()
-    {
-
-    }
+   public JButton getLoad()
+    {return load;}
 
     public JButton getNewGame() {
         return newGame;
+    }
+    public JButton getOptions()
+    {
+        return options;
     }
 }
